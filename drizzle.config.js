@@ -4,9 +4,7 @@ export default defineConfig({
   dialect: "postgresql",
   schema: "./drizzle/schema.js",
   out: "./drizzle",
-  driver: "pg",
   dbCredentials: {
-    connectionString: process.env.NEON_DB_URL,
-  },
-  breakpoints: true,
+    url: process.env.NEON_DB_URL,
+  }
 });
