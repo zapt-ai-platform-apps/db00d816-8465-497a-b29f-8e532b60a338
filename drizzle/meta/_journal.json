@@ -1,6 +1,6 @@
 {
   "lastRun": "001_create_favorite_names_table.sql",
-  "migrations": [
+  "entries": [
     {
       "id": "001_create_favorite_names_table.sql",
       "name": "001_create_favorite_names_table.sql",
