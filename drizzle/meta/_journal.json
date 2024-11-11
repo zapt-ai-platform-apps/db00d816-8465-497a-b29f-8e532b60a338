@@ -1,0 +1,10 @@
+{
+  "lastRun": "001_create_favorite_names_table.sql",
+  "migrations": [
+    {
+      "id": "001_create_favorite_names_table.sql",
+      "name": "001_create_favorite_names_table.sql",
+      "timestamp": 1697040000000
+    }
+  ]
+}

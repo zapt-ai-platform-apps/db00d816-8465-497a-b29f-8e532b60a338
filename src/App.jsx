@@ -25,7 +25,8 @@ function App() {
   const generateNames = async () => {
     setLoading(true);
     try {
-      const prompt = 'Generate a list of 10 unique and beautiful child names in JSON array format, e.g., ["Name1", "Name2", ...]';
+      const prompt =
+        'Generate a list of 10 unique and beautiful child names in JSON array format, e.g., ["Name1", "Name2", ...]';
       const result = await createEvent('chatgpt_request', {
         prompt,
         response_type: 'json',

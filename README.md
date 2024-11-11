@@ -2,7 +2,7 @@
 
 ## Description
 
-New Child is an app designed to help you find the perfect name for your child. It allows you to generate name suggestions and save your favorite ones for future reference.
+New Child is an app designed to help you find the perfect name for your child. It allows you to generate name suggestions using AI and save your favorite ones for future reference.
 
 ## User Journey
 

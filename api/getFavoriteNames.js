@@ -12,7 +12,10 @@ export default async function handler(req, res) {
     const sql = neon(process.env.NEON_DB_URL);
     const db = drizzle(sql);
 
-    const names = await db.select().from(favoriteNames).orderBy(favoriteNames.createdAt.desc());
+    const names = await db
+      .select()
+      .from(favoriteNames)
+      .orderBy(favoriteNames.createdAt.desc());
 
     res.status(200).json(names);
   } catch (error) {
