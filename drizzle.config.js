@@ -1,7 +1,7 @@
 import { defineConfig } from 'drizzle-kit';
 
 export default defineConfig({
-  driver: 'pg',
+  dialect: "postgresql",
   schema: './drizzle/schema.js',
   out: './drizzle',
   dbCredentials: {
