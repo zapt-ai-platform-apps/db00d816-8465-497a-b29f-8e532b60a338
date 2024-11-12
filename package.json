@@ -12,6 +12,7 @@
     "solid-js": "^1.8.22",
     "drizzle-orm": "^0.36.1",
     "@neondatabase/serverless": "^0.9.5",
+    "@zapt/zapt-js": "^1.0.5",
     "solid-markdown": "^2.0.13"
   },
   "devDependencies": {
