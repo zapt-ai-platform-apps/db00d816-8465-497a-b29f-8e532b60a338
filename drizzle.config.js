@@ -5,6 +5,6 @@ export default defineConfig({
   schema: './drizzle/schema.js',
   out: './drizzle',
   dbCredentials: {
-    connectionString: process.env.NEON_DB_URL,
+    url: process.env.NEON_DB_URL,
   },
 });
